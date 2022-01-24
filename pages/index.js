@@ -61,8 +61,8 @@ export default function PaginaInicial() {
         <Box
           styleSheet={{
             display: 'flex', alignItems: 'center', justifyContent: 'center',
-            backgroundColor: appConfig.theme.colors.primary[500],
-            backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+            backgroundColor: appConfig.theme.colors.primary[200],
+            backgroundImage: 'url(https://user-images.githubusercontent.com/44476076/150880878-dda620a9-141b-47ce-8113-8d60058b016e.jpg)',
             backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
           }}
         >
@@ -113,7 +113,7 @@ export default function PaginaInicial() {
                   contrastColor: appConfig.theme.colors.neutrals["000"],
                   mainColor: appConfig.theme.colors.primary[500],
                   mainColorLight: appConfig.theme.colors.primary[400],
-                  mainColorStrong: appConfig.theme.colors.primary[600],
+                  mainColorStrong: appConfig.theme.colors.primary[400],
                 }}
               />
             </Box>
